@@ -72,6 +72,22 @@
 			background-color: transparent;
 			text-decoration: underline;
 		}
+
+		/* Links section */
+		.links-row {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 6vw;              /* spacing between icons scales with screen */
+			margin-top: 20px;
+		}
+
+		.links-row img {
+			width: 8vw;            /* scale based on viewport width */
+			max-width: 80px;       /* cap size on large screens */
+			min-width: 40px;       /* prevent being too small on mobile */
+			height: auto;
+		}
 	</style>
 </head>
 <body>
@@ -164,6 +180,22 @@
 	</section>
 	<section class="section s1">
 		<div class="container">
+			<center><h1>Links</h1></center>
+			<div class="links-row">
+				<a href="https://discord.gg/FXTKS9n9j" target="_blank" rel="noopener">
+					<img src="images/discord_logo.png" alt="Discord - NBA JAM: On Fire Edition">
+				</a>
+				<a href="https://www.youtube.com/@NBAJAMOnFireEdition" target="_blank" rel="noopener">
+					<img src="images/youtube_logo.png" alt="YouTube @NBAJAMOnFireEdition">
+				</a>
+				<a href="https://www.tiktok.com/@nbajamforever" target="_blank" rel="noopener">
+					<img src="images/tiktok_logo.png" alt="TikTok @NBAJamForever">
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="section s2">
+		<div class="container">
 			<center><h1>How to Help</h1></center>
 			<br>
 			The most important thing to figure out is how to edit ATTRIBDB.  This will make most things far easier to change, and will open up many more mod opportunities.  Please see this NLSC forum post for the the latest information on this effort: <a href="https://forums.nba-live.com/viewtopic.php?f=72&t=116319">https://forums.nba-live.com/viewtopic.php?f=72&t=116319</a>
@@ -184,7 +216,7 @@
 			&#x2022; Edit dunk animations
 		</div>
 	</section>
-	<section class="section s2">
+	<section class="section s1">
 		<div class="container">
 			<center><h1>Frequently Asked Questions</h1></center>
 			<br>
@@ -253,7 +285,7 @@
 			A: In all of my projects, Road Trip is for expert players looking for a challenge (or something close to a challenge).  All the Road Trip matchups are set to the maximum difficulty ("Real AI").  I really didn't like how the original game's Road Trip was super easy when playing real NBA players, then got challenging when playing the fictional teams.  Keep playing exhibition games and increase the difficulty when you start winning.  You'll get better, and soon you'll be able to compete in Road Trip.
 		</div>
 	</section>
-	<section class="section s1">
+	<section class="section s2">
 		<div class="container">
 			<br>
 			Copyright © 2026 'nba-jam.com'.  All rights reserved.  This website is not affiliated with, endorsed by, or sponsored by Electronic Arts (EA), the National Basketball Association (NBA), or any of their subsidiaries or partners.  All trademarks and copyrights belong to their respective owners.
